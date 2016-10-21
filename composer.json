@@ -1,0 +1,85 @@
+{
+	"name": "toruinteractive/ti-site-template",
+	"description": "A basic template for Toru Interactive sites.",
+	"version": "0.0.1",
+	"homepage": "http://www.toruinteractive.com",
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.4.0",
+		"raven/raven": "^0.13.0",
+		"yiisoft/yii2-bootstrap": "2.0.*",
+		"yiisoft/yii2-jui" :"2.0.*",
+		"yiisoft/yii2-swiftmailer": "2.0.*",
+		"yiisoft/yii2": "2.0.*",
+		"yiisoft/yii2-apidoc": "2.0.*",
+		"yiisoft/yii2-authclient" : "2.0.*",
+
+		"toruinteractive/ti-cms": "0.10.35",
+		"phpoffice/phpexcel": "^1.8",
+		"frostealth/yii2-aws-s3": "~1.0@stable"
+	},
+	"require-dev": {
+		"yiisoft/yii2-codeception": "*",
+		"yiisoft/yii2-debug": "*",
+		"yiisoft/yii2-gii": "*",
+		"yiisoft/yii2-faker": "*"
+	},
+	"config": {
+		"process-timeout": 1800,
+		"vendor-dir": "../vendor"
+	},
+	"extra": {
+		"asset-installer-paths": {
+			"bower-asset-library": "../vendor/bower"
+		},
+		"require-bower":{
+			"angular-bootstrap": "*"
+		}
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-cms.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-image.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-login.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-navbar.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-search.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-translator.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-tree.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-slides.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-superadmin.git"
+		},
+		{
+			"type" : "git",
+			"url" : "git@bitbucket.org:toruinteractive/ti-suggest.git"
+		},
+		{
+			"type": "git",
+			"url":  "git@bitbucket.org:toruinteractive/ti-dashboard.git"
+		}
+	]
+}
