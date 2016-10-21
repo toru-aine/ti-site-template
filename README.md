@@ -8,6 +8,13 @@ folder
 composer create-project toruinteractive/ti-site-template
 ```
 
+### Environments
+In terminal, change folder to the current folder, then run
+```
+init
+```
+Find and replace 'SET_ME' with the various settings specific to the project
+
 ###Make models
 Add all models to model_generation file and in Terminal run
 ```

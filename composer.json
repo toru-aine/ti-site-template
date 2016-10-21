@@ -1,7 +1,7 @@
 {
 	"name": "toruinteractive/ti-site-template",
 	"description": "A basic template for Toru Interactive sites.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "http://www.toruinteractive.com",
 	"minimum-stability": "stable",
 	"require": {
