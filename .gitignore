@@ -1,0 +1,15 @@
+.DS_Store
+/.htaccess
+/api/modules/*/htaccess.txt
+/phpunit.xml
+/vendor
+/yii
+bower.json
+composer.phar
+node_modules
+phpunit.phar
+Thumbs.db
+/index-test.php
+/index.php
+console/runtime
+catalogue/runtime
