@@ -1,0 +1,1 @@
+php yii gii/model --tableName=archive --modelClass=Archive --baseClass='TiCMS\models\TiRestModel' --ns='common\models' --interactive=0 --overwrite=1;
