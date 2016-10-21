@@ -6,7 +6,6 @@
 	"minimum-stability": "stable",
 	"require": {
 		"php": ">=5.4.0",
-		"raven/raven": "^0.13.0",
 		"yiisoft/yii2-bootstrap": "2.0.*",
 		"yiisoft/yii2-jui" :"2.0.*",
 		"yiisoft/yii2-swiftmailer": "2.0.*",
@@ -14,9 +13,7 @@
 		"yiisoft/yii2-apidoc": "2.0.*",
 		"yiisoft/yii2-authclient" : "2.0.*",
 
-		"toruinteractive/ti-cms": "0.10.35",
-		"phpoffice/phpexcel": "^1.8",
-		"frostealth/yii2-aws-s3": "~1.0@stable"
+		"toruinteractive/ti-cms": "0.10.35"
 	},
 	"require-dev": {
 		"yiisoft/yii2-codeception": "*",
