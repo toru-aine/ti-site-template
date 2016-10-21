@@ -13,7 +13,8 @@
 		"yiisoft/yii2-apidoc": "2.0.*",
 		"yiisoft/yii2-authclient" : "2.0.*",
 
-		"toruinteractive/ti-cms": "0.10.35"
+		"toruinteractive/ti-cms": "0.10.35",
+		"frostealth/yii2-aws-s3": "~1.0@stable"
 	},
 	"require-dev": {
 		"yiisoft/yii2-codeception": "*",
